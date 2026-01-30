@@ -1,5 +1,9 @@
 class Dog:
+<<<<<<< HEAD
     def __init__(self, name, age):
+=======
+    def __init__(self, namne, age):
+>>>>>>> 1ec9508a48c8b0393e775d36f4e72a263446fbb8
       self.name = name
       self.age = age
     
