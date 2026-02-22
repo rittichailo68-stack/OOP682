@@ -3,7 +3,7 @@ from csv_log_source import CsvLogSource
 
 def get_log_source(source_type):
     if source_type == "file":
-        return FileLogSource()
+        return FileLogSource()   
     elif source_type == "csv": 
         return CsvLogSource()
 

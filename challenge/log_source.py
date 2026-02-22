@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 class ILogSource(ABC):
     @abstractmethod
-    def get_logs(self):
+    def get_logs(self):   
         pass
 
 class FileLogSource(ILogSource):
