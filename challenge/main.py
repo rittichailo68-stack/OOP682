@@ -11,4 +11,4 @@ if __name__ == "__main__":
     source = get_log_source("csv")
     print("--- Output Log จาก CSV ---")
     for log in source.get_logs():
-        print(log)
+        print(log)   

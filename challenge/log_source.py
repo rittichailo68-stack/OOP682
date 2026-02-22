@@ -7,4 +7,4 @@ class ILogSource(ABC):
 
 class FileLogSource(ILogSource):
     def get_logs(self):
-        return ["Log from TXT: System Booting", "Log from TXT: Server Started"]
+        return ["Log from TXT: System Booting", "Log from TXT: Server Started"]  
